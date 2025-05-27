@@ -4,14 +4,14 @@ title: About me
 subtitle: A brief personal description
 ---
 
-My name is Ferran Aran, I am from Lleida and I love learning new skills. Have a look at my background below!
+Hello There! name is Marcell Winkler, I am from Budapest and I love learning new skills. Have a look at my background below!
 
 ### Education
 
-- Computer science degree at UdL (2019 - 2022)
-- Master in computer science at UdL (2022 - 2024)
-- PhD in RL applied to energy (2024 - present)
+- Energy Engineering at Budapest University of Technology and Economics (2013 - 2017)
+- Master in Biomedical Engineering at Budapest University of Technology and Economics (2018 - 2020)
+- Master in Health Data Science at EiT Health (2024 - present)
 
 ### Experience
-- Research assistant on MILP at UdL (2022 - 2023)
-- R&D as Data Scientist at GFT Technologies (2023 - present)
+- Technical Consultant at NI (2020 - 2022)
+- Senior Data Mining / Data Analytics Engineer at Jaguar Land Rover (2022 - present)
