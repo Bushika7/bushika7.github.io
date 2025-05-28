@@ -39,22 +39,3 @@ BlindTuner proposes a method where **fine-tuning ViTs on medical data** is perfo
 The system uses **Data-Efficient Image Transformers (DeiT)** and applies **HE-friendly layers** to enable gradient descent directly on encrypted tensors. Key benefits include compliance with privacy laws (HIPAA/GDPR) and prevention of model inversion attacks.
 
 ---
-
-## Architecture Overview
-
-Here’s a radiological metaphor: in a **CT scan**, we see layers of internal detail that were previously hidden. **BlindTuner** does something similar — it lets AI see *without actually seeing*, keeping patient data encrypted and private throughout processing.
-
-![CT Scan Layers](https://upload.wikimedia.org/wikipedia/commons/e/e1/CT_Scan_Head.png){: .mx-auto.d-block :}
-
----
-
-## Python-style pseudocode (Encrypted Vision Transformer)
-
-```python
-# Pseudocode – HE-compatible fine-tuning
-def encrypted_fine_tune(model, encrypted_data, HE_engine):
-    encrypted_output = model(encrypted_data, encrypted=True)
-    loss = HE_engine.compute_loss(encrypted_output)
-    encrypted_gradients = HE_engine.backpropagate(loss)
-    model.update_weights(encrypted_gradients)
-    return model
